@@ -150,6 +150,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 889606829}
   - {fileID: 1761863886}
@@ -254,6 +255,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -287,6 +289,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1199624365}
   m_Father: {fileID: 1870111350}
@@ -341,7 +344,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1860940792}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.8754022
+  m_Size: 0.89952093
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -412,6 +415,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 890572835}
   m_RootOrder: 0
@@ -485,6 +489,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1248535717}
   m_Father: {fileID: 1446712561}
@@ -527,6 +532,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1736400374}
   m_RootOrder: 0
@@ -705,32 +711,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<voffset=0.7em><u><b><size=2em>FancyTextRendering</size></b></u></voffset>\r\nIt's
-    some code to render markdown & clickable links in Unity. How fun!\r\n\r\n<voffset=0.3em><u><b><size=1.7em>We
-    got multiple levels of headers</size></b></u></voffset>\r\nIsn't that neat.\r\n\r\nAnywho,
-    we've got all your standard Markdown features. You can make stuff <i>italic</i>
-    or <b>bold</b>, or even <i><b>both simultaneously</b></i>. You can cross out
-    stuff with <s>strikethrough</s> or make it codey with <space=0.3em><font=\"Noto/Noto
-    Mono/NotoMono-Regular\"><mark=#0000003C padding=\"25,25,0,0\">monospace</font></mark><space=0.3em>.\r\n\r\n<b><size=1.5em>Lists!</size></b>\r\nBoy
-    oh boy do we have lists!\r\n<line-height=0.76em></line-height>\n<line-height=0%><width=100><align=right>\u2022</width></align>\n</line-height><indent=120>Unordered
-    lists that use bullet points!</indent>\r\n<line-height=0%><width=100><align=right>\u2022</width></align>\n</line-height><indent=120>See,
-    it's another item in the list!</indent>\r\n<line-height=0%><width=100><align=right>\u2022</width></align>\n</line-height><indent=120>Wowee,
-    another one!!!</indent>\n<line-height=0.76em></line-height>\r\nOrdered lists
-    are also supported :D\r\n<line-height=0.76em></line-height>\n<line-height=0%><width=100><align=right>1.</width></align>\n</line-height><indent=120>If
+  m_text: "<u><b><size=2em>FancyTextRendering</size></b></u>\n<size=0.7em>\u200B</size>\nIt's
+    some code to render markdown & clickable links in Unity. How fun!\n\n<u><b><size=1.7em>We
+    got multiple levels of headers</size></b></u>\n<size=0.3em>\u200B</size>\nIsn't
+    that neat.\n\nAnywho, we've got all your standard Markdown features. You can
+    make stuff <i>italic</i> or <b>bold</b>, or even <i><b>both simultaneously</b></i>.
+    You can cross out stuff with <s>strikethrough</s> or make it codey with <space=0.3em><font=\"Noto/Noto
+    Mono/NotoMono-Regular\"><mark=#0000003C padding=\"25,25,0,0\">monospace</font></mark><space=0.3em>.\n\n<b><size=1.5em>Lists!</size></b>\nBoy
+    oh boy do we have lists!\n<size=0.76em>\u200B</size>\n<line-height=0%><width=100><align=right>\u2022</width></align>\n</line-height><indent=120>Unordered
+    lists that use bullet points!</indent>\n<line-height=0%><width=100><align=right>\u2022</width></align>\n</line-height><indent=120>See,
+    it's another item in the list!</indent>\n<line-height=0%><width=100><align=right>\u2022</width></align>\n</line-height><indent=120>Wowee,
+    another one!!!</indent>\n<size=0.76em>\u200B</size>\nOrdered lists are also supported
+    :D\n<size=0.76em>\u200B</size>\n<line-height=0%><width=100><align=right>1.</width></align>\n</line-height><indent=120>If
     you use \"1\" for every number, the list is auto-numbered, in keeping with standard
-    markdown rules.</indent>\r\n<line-height=0%><width=100><align=right>2.</width></align>\n</line-height><indent=120>This
+    markdown rules.</indent>\n<line-height=0%><width=100><align=right>2.</width></align>\n</line-height><indent=120>This
     makes it easy to insert an item in the list without having to update the number
-    for every single item in the list.</indent>\r\n<line-height=0%><width=100><align=right>3.</width></align>\n</line-height><indent=120>But
-    if you want to control the numbers manually, that is also supported.</indent>\n<line-height=0.76em></line-height>\r\nSee,
-    like in this list:\r\n<line-height=0.76em></line-height>\n<line-height=0%><width=100><align=right>69.</width></align>\n</line-height><indent=120>This
-    is an intentional difference from the markdown spec.</indent>\r\n<line-height=0%><width=100><align=right>420.</width></align>\n</line-height><indent=120>I
+    for every single item in the list.</indent>\n<line-height=0%><width=100><align=right>3.</width></align>\n</line-height><indent=120>But
+    if you want to control the numbers manually, that is also supported.</indent>\n<size=0.76em>\u200B</size>\nSee,
+    like in this list:\n<size=0.76em>\u200B</size>\n<line-height=0%><width=100><align=right>69.</width></align>\n</line-height><indent=120>This
+    is an intentional difference from the markdown spec.</indent>\n<line-height=0%><width=100><align=right>420.</width></align>\n</line-height><indent=120>I
     often see folks get confused by Markdown's list auto-numbering, and this change
-    should ensure that the feature only applies to folks who know what they're doing.</indent>\n<line-height=0.76em></line-height>\r\n<b><size=1.5em>Links!</size></b>\r\nHTTP
+    should ensure that the feature only applies to folks who know what they're doing.</indent>\n<size=0.76em>\u200B</size>\n<b><size=1.5em>Links!</size></b>\nHTTP
     and HTTPS links are automatically detected and added, like so: <color=#1D7CEAFF><link=\"http://isitwednesday.info/.\">http://isitwednesday.info/.</link></color>
     We also have inline links, <color=#1D7CEAFF><link=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">like
-    this</link></color>.\r\n\r\n<b><size=1.5em>Superscript!</size></b>\r\nWe got
-    super<sup>script!</sup> We got super<sup>script but it's long!</sup>\r\n\r\n<b><size=1.5em>Escapes!</size></b>\r\nYou
-    can *escape* control characters with a backslash. Regular^script!\r\n"
+    this</link></color>.\n\n<b><size=1.5em>Superscript!</size></b>\nWe got super<sup>script!</sup>
+    We got super<sup>script but it's long!</sup>\n\n<b><size=1.5em>Escapes!</size></b>\nYou
+    can *escape* control characters with a backslash. Regular^script!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a38843dbb13c23940ae5adfe0936b68e, type: 2}
   m_sharedMaterial: {fileID: 6588039389402685758, guid: a38843dbb13c23940ae5adfe0936b68e, type: 2}
@@ -895,9 +901,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &889606828
 GameObject:
@@ -928,6 +935,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 125469607}
   m_RootOrder: 0
@@ -1144,11 +1152,12 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 237189460}
   - {fileID: 984161510}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1181,6 +1190,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2035596122}
   - {fileID: 1847077268}
@@ -1218,6 +1228,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1860940792}
   m_Father: {fileID: 188738441}
@@ -1256,6 +1267,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 324587310}
   m_RootOrder: 0
@@ -1303,6 +1315,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248535716}
   m_CullTransparentMesh: 1
+--- !u!1 &1267920404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1267920406}
+  - component: {fileID: 1267920405}
+  m_Layer: 5
+  m_Name: UIDocument
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1267920405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267920404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 34c6af88d469f447885856e5caf99ca9, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: ee1d63478ab3d4aff8d632379113f0b3, type: 3}
+  m_SortingOrder: 0
+--- !u!4 &1267920406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267920404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1446712560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1392,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 324587310}
   m_Father: {fileID: 2035596122}
@@ -1386,7 +1447,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1248535717}
   m_Direction: 3
   m_Value: 0
-  m_Size: 0.93606526
+  m_Size: 0.9364403
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1458,6 +1519,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 411557727}
   m_Father: {fileID: 1870111350}
@@ -1547,6 +1609,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 125469607}
   m_RootOrder: 1
@@ -1697,6 +1760,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1870111350}
   m_Father: {fileID: 984161510}
@@ -1735,6 +1799,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1199624365}
   m_RootOrder: 0
@@ -1810,6 +1875,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1736400374}
   - {fileID: 188738441}
@@ -1885,6 +1951,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2078099419}
   - {fileID: 1446712561}
@@ -1925,6 +1992,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 125469607}
   m_Father: {fileID: 2035596122}
@@ -2180,6 +2248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -2212,6 +2281,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
