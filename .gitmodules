@@ -1,0 +1,6 @@
+[submodule "Assets/Plugins/UnityUtilities"]
+	path = Assets/Plugins/UnityUtilities
+	url = git@github.com:dr-vij/JimmysUnityUtilities.git
+[submodule "Assets/Plugins/NaughtyAttributes"]
+	path = Assets/Plugins/NaughtyAttributes
+	url = git@github.com:dr-vij/NaughtyAttributes.git

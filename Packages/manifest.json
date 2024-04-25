@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
-    "com.jimmycushnie.jimmysunityutilities": "https://github.com/JimmyCushnie/JimmysUnityUtilities.git",
     "com.unity.ai.navigation": "2.0.0",
     "com.unity.ide.rider": "3.0.28",
     "com.unity.ide.visualstudio": "2.0.22",
