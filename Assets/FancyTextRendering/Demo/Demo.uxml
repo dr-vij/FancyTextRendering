@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
->
-    
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:ScrollView>
+        <LogicUI.FancyTextRendering.MarkdownLabel markdown-text="# FancyTextRendering&#10;&#10;It&apos;s some code to render markdown &amp; clickable links in Unity. How fun!&#10;&#10;## We got multiple levels of headers&#10;&#10;Isn&apos;t that neat.&#10;&#10;Anywho, we&apos;ve got all your standard Markdown features. You can make stuff *italic* or **bold**, or even ***both simultaneously***. You can cross out stuff with ~~strikethrough~~ or make it codey with `monospace`.&#10;&#10;### Lists!&#10;&#10;Boy oh boy do we have lists!&#10;&#10;* Unordered lists that use bullet points!&#10;* See, it&apos;s another item in the list!&#10;* Wowee, another one!!!&#10;&#10;Ordered lists are also supported :D&#10;&#10;1. If you use &quot;1&quot; for every number, the list is auto-numbered, in keeping with standard markdown rules.&#10;1. This makes it easy to insert an item in the list without having to update the number for every single item in the list.&#10;1. But if you want to control the numbers manually, that is also supported.&#10;&#10;See, like in this list:&#10;&#10;69. This is an intentional difference from the markdown spec.&#10;420. I often see folks get confused by Markdown&apos;s list auto-numbering, and this change should ensure that the feature only applies to folks who know what they&apos;re doing.&#10;&#10;### Links!&#10;&#10;HTTP and HTTPS links are automatically detected and added, like so: http://isitwednesday.info/. We also have inline links, [like this](https://www.youtube.com/watch?v=dQw4w9WgXcQ).&#10;&#10;### Superscript!&#10;&#10;We got super^script! We got super^(script but it&apos;s long!)&#10;&#10;### Escapes!&#10;&#10;You can \*escape* control characters with a backslash. Regular\^script!" style="white-space: normal;" />
+    </engine:ScrollView>
 </engine:UXML>

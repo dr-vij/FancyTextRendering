@@ -5,14 +5,14 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "6610c4be31942e323a3be910ac567ec528c78d0b"
+      "hash": "8a8fa5a9659a6d63f196391c71e06c4286c8acd7"
     },
     "com.jimmycushnie.jimmysunityutilities": {
       "version": "https://github.com/JimmyCushnie/JimmysUnityUtilities.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "688a45c7aeb110f26de3701f2c9f4ce2f87ed01f"
+      "hash": "92e4dd49d1f6a303a80fb725ed7f46e17f7c6e8e"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.0",
